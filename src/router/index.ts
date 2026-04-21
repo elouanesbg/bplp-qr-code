@@ -15,6 +15,16 @@ const router = createRouter({
       path: '/',
       component: Index,
     },
+    {
+      path: '/book/:isbn',
+      component: () => import('@/pages/book.vue'),
+
+    },
+    {
+      path: '/shelf/:id',
+      component: () => import('@/pages/shelf.vue'),
+
+    }
   ],
 })
 

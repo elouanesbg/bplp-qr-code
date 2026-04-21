@@ -1,0 +1,71 @@
+[
+    {
+        "isbn": "978-9931-00-001-7",
+        "title": "ذاكرة الجسد",
+        "author": "أحلام مستغانمي",
+        "publisher": "دار الآداب",
+        "publish_country": "لبنان",
+        "publish_year": 1993,
+        "page_count": 320,
+        "language": "ar",
+        "description": "رواية عربية معاصرة تتناول الحب والذاكرة في سياق تاريخي جزائري.",
+        "keywords": [
+            "رواية",
+            "حب",
+            "تاريخ",
+            "الجزائر"
+        ],
+        "cover": {
+            "url": "https://example.com/covers/zakirat-aljasad.jpg",
+            "thumbnail": "https://example.com/covers/zakirat-aljasad-thumb.jpg"
+        },
+        "created_at": "2026-04-21T10:00:00Z",
+        "updated_at": "2026-04-21T10:00:00Z"
+    },
+    {
+        "isbn": "978-9953-27-345-2",
+        "title": "عائد إلى حيفا",
+        "author": "غسان كنفاني",
+        "publisher": "مؤسسة الأبحاث العربية",
+        "publish_country": "لبنان",
+        "publish_year": 1969,
+        "page_count": 120,
+        "language": "ar",
+        "description": "رواية قصيرة تسلط الضوء على قضية العودة والهوية الفلسطينية.",
+        "keywords": [
+            "رواية",
+            "فلسطين",
+            "هوية",
+            "سياسة"
+        ],
+        "cover": {
+            "url": "https://example.com/covers/return-to-haifa.jpg",
+            "thumbnail": "https://example.com/covers/return-to-haifa-thumb.jpg"
+        },
+        "created_at": "2026-04-21T10:00:00Z",
+        "updated_at": "2026-04-21T10:00:00Z"
+    },
+    {
+        "isbn": "978-977-0933-00-4",
+        "title": "الأيام",
+        "author": "طه حسين",
+        "publisher": "دار المعارف",
+        "publish_country": "مصر",
+        "publish_year": 1929,
+        "page_count": 280,
+        "language": "ar",
+        "description": "سيرة ذاتية للأديب طه حسين، تحكي رحلته مع العلم والتحديات.",
+        "keywords": [
+            "سيرة ذاتية",
+            "أدب",
+            "تعليم",
+            "مصر"
+        ],
+        "cover": {
+            "url": "https://example.com/covers/al-ayyam.jpg",
+            "thumbnail": "https://example.com/covers/al-ayyam-thumb.jpg"
+        },
+        "created_at": "2026-04-21T10:00:00Z",
+        "updated_at": "2026-04-21T10:00:00Z"
+    }
+]

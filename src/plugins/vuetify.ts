@@ -13,6 +13,11 @@ import 'vuetify/styles'
 
 // https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides
 export default createVuetify({
+  locale: {
+    rtl: {
+      en: true,
+    },
+  },
   theme: {
     defaultTheme: 'system',
   },
