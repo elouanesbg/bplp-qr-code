@@ -61,6 +61,12 @@ npm run dev
 npm run build
 ```
 
+## Deploy
+
+```bash
+firebase deploy
+```
+
 ## 🧪 Available Scripts
 
 - `npm run dev`

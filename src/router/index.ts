@@ -6,25 +6,30 @@
 
 // Composables
 import { createRouter, createWebHistory } from 'vue-router'
-import Index from '@/pages/index.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      component: Index,
+      name: 'home',
+      component: () => import('@/pages/index.vue'),
     },
     {
       path: '/book/:isbn',
+      name: 'book-details',
       component: () => import('@/pages/book.vue'),
-
     },
     {
       path: '/shelf/:id',
+      name: 'shelf-details',
       component: () => import('@/pages/shelf.vue'),
-
-    }
+    },
+    // catch-all (404 → redirect to home)
+    {
+      path: '/:pathMatch(.*)*',
+      redirect: '/',
+    },
   ],
 })
 

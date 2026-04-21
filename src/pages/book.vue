@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import books from '@/data/books.json' // your array
+import booksData from '@/data/books.json' // your array
 
 export default {
     name: 'BookPage',
@@ -40,7 +40,7 @@ export default {
 
     created() {
         const isbn = this.$route.params.isbn
-        this.book = books.find(b => b.isbn === isbn)
+        this.book = booksData.find(b => b.isbn === isbn)
     }
 }
 </script>

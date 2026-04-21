@@ -20,8 +20,8 @@
 </template>
 
 <script>
-import shelves from '@/data/shelf.json'
-import books from '@/data/books.json'
+import shelvesData from '@/data/shelf.json'
+
 
 export default {
     name: 'ShelfPage',
@@ -36,7 +36,7 @@ export default {
     created() {
         const id = this.$route.params.id
 
-        this.shelf = shelves.find(s => s.id === id)
+        this.shelf = shelvesData.find(s => s.id === id)
 
         if (this.shelf) {
             this.shelfBooks = books.filter(b =>
