@@ -16,8 +16,8 @@
             "الجزائر"
         ],
         "cover": {
-            "url": "https://example.com/covers/zakirat-aljasad.jpg",
-            "thumbnail": "https://example.com/covers/zakirat-aljasad-thumb.jpg"
+            "url": "https://raw.githubusercontent.com/elouanesbg/bplp-qr-code/main/books-assets/covers/978-9931-00-001-7.png",
+            "thumbnail": "https://raw.githubusercontent.com/elouanesbg/bplp-qr-code/main/books-assets/covers/978-9931-00-001-7.png"
         },
         "created_at": "2026-04-21T10:00:00Z",
         "updated_at": "2026-04-21T10:00:00Z"
@@ -39,8 +39,8 @@
             "سياسة"
         ],
         "cover": {
-            "url": "https://example.com/covers/return-to-haifa.jpg",
-            "thumbnail": "https://example.com/covers/return-to-haifa-thumb.jpg"
+            "url": "https://raw.githubusercontent.com/elouanesbg/bplp-qr-code/main/books-assets/covers/978-9953-27-345-2.png",
+            "thumbnail": "https://raw.githubusercontent.com/elouanesbg/bplp-qr-code/main/books-assets/covers/978-9953-27-345-2.png"
         },
         "created_at": "2026-04-21T10:00:00Z",
         "updated_at": "2026-04-21T10:00:00Z"
@@ -62,8 +62,8 @@
             "مصر"
         ],
         "cover": {
-            "url": "https://example.com/covers/al-ayyam.jpg",
-            "thumbnail": "https://example.com/covers/al-ayyam-thumb.jpg"
+            "url": "https://raw.githubusercontent.com/elouanesbg/bplp-qr-code/main/books-assets/covers/978-977-0933-00-4.png",
+            "thumbnail": "https://raw.githubusercontent.com/elouanesbg/bplp-qr-code/main/books-assets/covers/978-977-0933-00-4.png"
         },
         "created_at": "2026-04-21T10:00:00Z",
         "updated_at": "2026-04-21T10:00:00Z"
