@@ -23,7 +23,10 @@
                 <p><b>سنة النشر:</b> {{ book.publish_year }}</p>
                 <p><b>مكان النشر:</b> {{ book.publish_country }}</p>
                 <p><b>الطبعة:</b> {{ book.edition }}</p>
-
+                <hr />
+                <p><b>الخزانة:</b> {{ book.Cabinet }}</p>
+                <p><b>الرف:</b> {{ book.shelf }}</p>
+                <hr />
                 <p class="mt-4">{{ book.description }}</p>
 
                 <v-chip v-for="k in book.keywords.split('،').map(x => x.trim()).filter(Boolean)" :key="k" class="ma-1"
